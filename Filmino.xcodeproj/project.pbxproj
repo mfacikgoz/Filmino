@@ -62,11 +62,107 @@
 			children = (
 				0BE2FF2D2C0F9E3000ACC60E /* AppDelegate.swift */,
 				0BE2FF2F2C0F9E3000ACC60E /* SceneDelegate.swift */,
-				0BE2FF362C0F9E3100ACC60E /* Assets.xcassets */,
-				0BE2FF382C0F9E3100ACC60E /* LaunchScreen.storyboard */,
+				0BE2FF4D2C10D36F00ACC60E /* Scene */,
+				0BE2FF502C10D39C00ACC60E /* Views */,
+				0BE2FF512C10D3A600ACC60E /* Models */,
+				0BE2FF522C10D3CD00ACC60E /* Networking */,
+				0BE2FF532C10D3D600ACC60E /* Dependencies */,
+				0BE2FF542C10D3DF00ACC60E /* Utilities */,
+				0BE2FF552C10D3EE00ACC60E /* Resources */,
 				0BE2FF3B2C0F9E3100ACC60E /* Info.plist */,
+				0BE2FF562C10D3F800ACC60E /* Products */,
+				0BE2FF572C10D40100ACC60E /* Frameworks */,
 			);
 			path = Filmino;
+			sourceTree = "<group>";
+		};
+		0BE2FF4D2C10D36F00ACC60E /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				0BE2FF4F2C10D38C00ACC60E /* Movies */,
+				0BE2FF4E2C10D37D00ACC60E /* Shows */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		0BE2FF4E2C10D37D00ACC60E /* Shows */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shows;
+			sourceTree = "<group>";
+		};
+		0BE2FF4F2C10D38C00ACC60E /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Movies;
+			sourceTree = "<group>";
+		};
+		0BE2FF502C10D39C00ACC60E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0BE2FF512C10D3A600ACC60E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0BE2FF522C10D3CD00ACC60E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		0BE2FF532C10D3D600ACC60E /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				0BE2FF582C10D4A900ACC60E /* Repository */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		0BE2FF542C10D3DF00ACC60E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		0BE2FF552C10D3EE00ACC60E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0BE2FF362C0F9E3100ACC60E /* Assets.xcassets */,
+				0BE2FF382C0F9E3100ACC60E /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0BE2FF562C10D3F800ACC60E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		0BE2FF572C10D40100ACC60E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		0BE2FF582C10D4A900ACC60E /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
