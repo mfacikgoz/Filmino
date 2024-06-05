@@ -12,9 +12,9 @@ class ApiClient {
     
     private let apiManager: ApiManager = .shared
     
-    init() {}
+    static let shared: ApiClient = ApiClient()
     
-    static func getMedia<Media: Decodable>(mediaType: MediaType,
+    func getMedia<Media: Decodable>(mediaType: MediaType,
                                            page: Int = 1,
                                            sorting: Sorting,
                                            genres: [Genre] = []) async throws -> Paginated<Media> {

@@ -23,6 +23,8 @@
 		0BE2FF642C10D5B000ACC60E /* Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE2FF632C10D5B000ACC60E /* Show.swift */; };
 		0BE2FF662C10D65E00ACC60E /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE2FF652C10D65E00ACC60E /* ApiManager.swift */; };
 		0BE2FF6A2C10E3CD00ACC60E /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE2FF692C10E3CD00ACC60E /* ApiClient.swift */; };
+		0BE2FF6C2C10E94C00ACC60E /* MediaRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE2FF6B2C10E94C00ACC60E /* MediaRepository.swift */; };
+		0BE2FF6F2C10E9F900ACC60E /* PreferencesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE2FF6E2C10E9F900ACC60E /* PreferencesManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		0BE2FF632C10D5B000ACC60E /* Show.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Show.swift; sourceTree = "<group>"; };
 		0BE2FF652C10D65E00ACC60E /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 		0BE2FF692C10E3CD00ACC60E /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		0BE2FF6B2C10E94C00ACC60E /* MediaRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaRepository.swift; sourceTree = "<group>"; };
+		0BE2FF6E2C10E9F900ACC60E /* PreferencesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +144,7 @@
 			children = (
 				0BE2FF652C10D65E00ACC60E /* ApiManager.swift */,
 				0BE2FF692C10E3CD00ACC60E /* ApiClient.swift */,
+				0BE2FF6E2C10E9F900ACC60E /* PreferencesManager.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -185,6 +190,7 @@
 		0BE2FF582C10D4A900ACC60E /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				0BE2FF6B2C10E94C00ACC60E /* MediaRepository.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -271,11 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BE2FF6F2C10E9F900ACC60E /* PreferencesManager.swift in Sources */,
 				0BE2FF622C10D5A700ACC60E /* Movie.swift in Sources */,
 				0BE2FF662C10D65E00ACC60E /* ApiManager.swift in Sources */,
 				0BE2FF5E2C10D59500ACC60E /* MediaType.swift in Sources */,
 				0BE2FF5A2C10D57F00ACC60E /* Sorting.swift in Sources */,
 				0BE2FF2E2C0F9E3000ACC60E /* AppDelegate.swift in Sources */,
+				0BE2FF6C2C10E94C00ACC60E /* MediaRepository.swift in Sources */,
 				0BE2FF302C0F9E3000ACC60E /* SceneDelegate.swift in Sources */,
 				0BE2FF5C2C10D58800ACC60E /* Genre.swift in Sources */,
 				0BE2FF642C10D5B000ACC60E /* Show.swift in Sources */,
