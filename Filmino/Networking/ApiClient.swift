@@ -12,7 +12,6 @@ class ApiClient {
     
     private static let apiManager: ApiManager = .shared
     
-    static let shared: ApiClient = ApiClient()
     
     static func getMedia<Media: Decodable>(mediaType: MediaType,
                                            page: Int = 1,
