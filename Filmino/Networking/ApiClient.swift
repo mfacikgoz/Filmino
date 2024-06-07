@@ -10,11 +10,10 @@ import Foundation
 
 class ApiClient {
     
-    private let apiManager: ApiManager = .shared
+    private static let apiManager: ApiManager = .shared
     
-    static let shared: ApiClient = ApiClient()
     
-    func getMedia<Media: Decodable>(mediaType: MediaType,
+    static func getMedia<Media: Decodable>(mediaType: MediaType,
                                            page: Int = 1,
                                            sorting: Sorting,
                                            genres: [Genre] = []) async throws -> Paginated<Media> {
