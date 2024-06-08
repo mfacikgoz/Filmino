@@ -20,7 +20,7 @@ class ApiManager {
     
     static let shared: ApiManager = ApiManager()
     
-   init() { }
+    private init() { }
     
     func execute<Response: Decodable>(path: String,
                                       method: HTTPMethod,

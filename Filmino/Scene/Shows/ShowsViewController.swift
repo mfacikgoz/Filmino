@@ -28,7 +28,7 @@ class ShowsViewController: UIViewController {
         let cellNib = UINib(nibName: "\(MediaCollectionViewCell.self)", bundle: nil)
         
         collectionView.register(cellNib, forCellWithReuseIdentifier: "cell")
-
+        
         viewModel?.shows
             .receive(on: DispatchQueue.main)
             .sink { [weak self] shows in

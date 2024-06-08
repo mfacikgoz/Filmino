@@ -34,6 +34,7 @@
 		0BE2FF8A2C1398C500ACC60E /* ShowsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE2FF882C1398C500ACC60E /* ShowsViewController.swift */; };
 		0BE2FF8B2C1398C500ACC60E /* ShowsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BE2FF892C1398C500ACC60E /* ShowsViewController.xib */; };
 		0BE2FF8F2C139FD500ACC60E /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE2FF8E2C139FD500ACC60E /* MainTabBarController.swift */; };
+		0BE2FF922C14355800ACC60E /* AlamofireNetworkActivityLogger in Frameworks */ = {isa = PBXBuildFile; productRef = 0BE2FF912C14355800ACC60E /* AlamofireNetworkActivityLogger */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +72,7 @@
 			files = (
 				0BE2FF4C2C10D30F00ACC60E /* Kingfisher in Frameworks */,
 				0BE2FF462C10D2EA00ACC60E /* CombineCocoa in Frameworks */,
+				0BE2FF922C14355800ACC60E /* AlamofireNetworkActivityLogger in Frameworks */,
 				0BE2FF492C10D30200ACC60E /* CombineExt in Frameworks */,
 				0BE2FF432C10D2D400ACC60E /* Alamofire in Frameworks */,
 			);
@@ -243,6 +245,7 @@
 				0BE2FF452C10D2EA00ACC60E /* CombineCocoa */,
 				0BE2FF482C10D30200ACC60E /* CombineExt */,
 				0BE2FF4B2C10D30F00ACC60E /* Kingfisher */,
+				0BE2FF912C14355800ACC60E /* AlamofireNetworkActivityLogger */,
 			);
 			productName = Filmino;
 			productReference = 0BE2FF2A2C0F9E3000ACC60E /* Filmino.app */;
@@ -277,6 +280,7 @@
 				0BE2FF442C10D2EA00ACC60E /* XCRemoteSwiftPackageReference "CombineCocoa" */,
 				0BE2FF472C10D30200ACC60E /* XCRemoteSwiftPackageReference "CombineExt" */,
 				0BE2FF4A2C10D30F00ACC60E /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				0BE2FF902C14355800ACC60E /* XCRemoteSwiftPackageReference "AlamofireNetworkActivityLogger" */,
 			);
 			productRefGroup = 0BE2FF2B2C0F9E3000ACC60E /* Products */;
 			projectDirPath = "";
@@ -564,6 +568,14 @@
 				minimumVersion = 7.0.0;
 			};
 		};
+		0BE2FF902C14355800ACC60E /* XCRemoteSwiftPackageReference "AlamofireNetworkActivityLogger" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/konkab/AlamofireNetworkActivityLogger.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -586,6 +598,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 0BE2FF4A2C10D30F00ACC60E /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
+		};
+		0BE2FF912C14355800ACC60E /* AlamofireNetworkActivityLogger */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BE2FF902C14355800ACC60E /* XCRemoteSwiftPackageReference "AlamofireNetworkActivityLogger" */;
+			productName = AlamofireNetworkActivityLogger;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
