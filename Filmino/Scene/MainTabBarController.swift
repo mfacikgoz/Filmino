@@ -13,6 +13,7 @@ class MainTabBarController: UITabBarController {
         super.viewDidLoad()
         
         
+        
         // MOVIES
         let movieViewController = MoviesViewController()
         movieViewController.viewModel = MoviesViewModel(mediaRepository: MediaRepository())

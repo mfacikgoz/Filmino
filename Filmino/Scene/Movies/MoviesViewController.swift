@@ -11,7 +11,8 @@ import CombineCocoa
 
 class MoviesViewController: UIViewController {
     
-    @IBOutlet private weak var collectionView: UICollectionView!
+
+    @IBOutlet weak var collectionView: UICollectionView!
     
     private var cancellables = Set<AnyCancellable>()
     
