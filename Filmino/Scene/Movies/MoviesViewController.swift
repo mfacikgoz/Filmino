@@ -18,8 +18,11 @@ class MoviesViewController: UIViewController {
     
     var viewModel: MoviesViewModel?
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationController?.navigationBar.isTranslucent = true
+        navigationItem.backButtonTitle = ""
         
         collectionView.dataSource = self
         collectionView.delegate = self

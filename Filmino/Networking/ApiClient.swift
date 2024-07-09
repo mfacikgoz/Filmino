@@ -26,5 +26,12 @@ class ApiClient {
                                      ],
                                      expect: Paginated<Media>.self)
     }
+    
+    static func getMediaDetails<Media: Decodable>(mediaType: MediaType, with id: Int) async throws -> Media {
+        try await apiManager.execute(path: "/\(mediaType.rawValue)/\(id)",
+                                     method: .get,
+                                     parameters: [:],
+                                     expect: Media.self)
+    }
 }
 

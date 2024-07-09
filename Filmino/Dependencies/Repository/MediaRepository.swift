@@ -21,5 +21,14 @@ class MediaRepository {
                                      sorting: .popularityDescending)
     }
     
+    func detailsOfMovie(with id: Int) async throws -> Movie {
+        try await ApiClient.getMediaDetails(mediaType: .movie,
+                                            with: id)
+    }
+    
+    func detailsOfShow(with id: Int) async throws -> Show {
+        try await ApiClient.getMediaDetails(mediaType: .tv,
+                                            with: id)
+    }
     
 }

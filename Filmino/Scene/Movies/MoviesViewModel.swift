@@ -37,7 +37,7 @@ class MoviesViewModel {
     
     func didSelectMovie(at index: Int) {
         let movie = movies.value[index]
-        // TODO: Route to movie detail
+        AppRoute.movie(id: movie.id).navigate()
     }
     
     private func fetchData() async {
