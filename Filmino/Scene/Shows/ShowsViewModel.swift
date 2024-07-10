@@ -36,6 +36,7 @@ class ShowsViewModel {
     }
     func didSelectShow(at index: Int) {
         let show = shows.value[index]
+        AppRoute.show(id: show.id).navigate()
         
     }
     private func fetchData() async {

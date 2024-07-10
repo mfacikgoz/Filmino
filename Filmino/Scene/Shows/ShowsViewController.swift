@@ -20,6 +20,8 @@ class ShowsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationController?.navigationBar.isTranslucent = true
+        navigationItem.backButtonTitle = ""
         
         collectionView.dataSource = self
         collectionView.delegate = self

@@ -35,8 +35,8 @@ enum AppRoute {
             return viewController
             
         case .show(let id):
-            let viewController = ShowsViewController()
-            // TODO:
+            let viewController = ShowDetailViewController()
+            viewController.viewModel = ShowDetailViewModel(mediaRepository: MediaRepository(), showId: id)
             return viewController
             
         case .movie(let id):
